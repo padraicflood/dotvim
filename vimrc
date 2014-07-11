@@ -2,7 +2,7 @@ execute pathogen#infect()
 
 set nocompatible
 set background=dark
-
+colorscheme zenburn
 
 syntax on
 set number
