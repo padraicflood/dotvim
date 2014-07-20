@@ -14,6 +14,7 @@ let g:pymode = 0
 " ============== key mappings ======================
 let mapleader = ","
 nnoremap <leader>q :wq<CR>
+nnoremap <leader>w :w<CR>
 nore ; :
 inoremap jj <Esc>
 map <leader>r :w<CR>:!python %<CR>
