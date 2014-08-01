@@ -15,6 +15,10 @@ let g:pymode = 0
 let mapleader = ","
 nnoremap <leader>q :wq<CR>
 nnoremap <leader>w :w<CR>
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 nore ; :
 inoremap jj <Esc>
 map <leader>r :w<CR>:!python %<CR>
