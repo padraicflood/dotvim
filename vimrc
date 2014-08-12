@@ -45,8 +45,8 @@ filetype plugin on
 filetype indent on
 
 " Visual mode
-vnoremap > >gv  
-vnoremap < <gv
+"vnoremap > >gv  
+"vnoremap < <gv
 
 
 
