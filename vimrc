@@ -10,7 +10,7 @@ set number
 set mouse=a
 
 let g:pymode = 0
-
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
 " ============== key mappings ======================
 let mapleader = ","
 nnoremap <leader>q :wq<CR>
@@ -24,7 +24,7 @@ map <C-l> <C-w>l
 nore ; :
 inoremap jj <Esc>
 map <leader>rp :w<CR>:!python %<CR>
-map <leader>rc :w<CR>:!cc % && ./a.out<CR>
+map <leader>rc :w<CR>:!g++ % && ./a.out<CR>
 
 if(&filetype=='c')
     map <leader>r :w<CR>:!cc % && ./a.out<CR>
